@@ -22,7 +22,7 @@ services:
       - ./wp-content:/var/www/html/wp-content
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
     ports:
-      - "8003:80"
+      - "8005:80"
     restart: always
     environment:
       VIRTUAL_HOST: mo.tmy.io
